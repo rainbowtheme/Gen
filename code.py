@@ -46,6 +46,4 @@ async def gen(ctx):
 
 
     
-
-
-client.run('TOKEN')  
+client.run(os.getenv("TOKEN"))
